@@ -1,0 +1,14 @@
+Algoritmo media_aritmetica
+	Definir num,c Como Entero
+	Escribir "Ingrese un numero" 
+	leer num 
+	suma = 0
+	c = 1
+	Mientras num <> -1 Hacer
+		suma = suma + num
+		c = c + 1
+		leer num
+
+	FinMientras
+	Escribir "La media aritmetica es:", suma/(c-1)
+FinAlgoritmo
