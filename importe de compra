@@ -1,0 +1,13 @@
+Algoritmo descuento
+	Definir importe, total como real 
+	Escribir "Introduce el importe de la compra"
+	leer importe
+	Escribir "Introduce el mes"
+	leer mes
+	si mes = "octubre" Entonces
+		total = importe*0.85
+	SiNo
+		total = importe
+	FinSi
+	Escribir "la cantidad a cobrar es:", total
+FinAlgoritmo
