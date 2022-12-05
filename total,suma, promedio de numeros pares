@@ -1,0 +1,19 @@
+Algoritmo suma_pares
+	Definir i,n,c,cont,sumpar, sumimpar como real 
+	i = 1
+	mientras i <= 10 Hacer
+		Escribir "Ingrese un numero", i
+		leer n
+		si n mod 2 = 0 Entonces
+			c = c + 1
+			sumpar<-sumpar+n
+		SiNo
+		     cont = cont + 1
+			 sumaimpar = sumaimpar + n
+  finsi 
+  i=i+1
+FinMientras
+Escribir "En total de numeros pares es: ",c
+Escribir "la suma total es =",sumpar
+Escribir "El promedio de los numeros impares es:",sumaimpar/cont
+FinAlgoritmo
