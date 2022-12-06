@@ -1,0 +1,18 @@
+Algoritmo primo
+	Definir primo, cont, div, res Como entero
+	Primo = 1.
+ mientras primo<=100 Hacer
+	 Cont =1.
+	 Div =0.
+	Mientras cont <= primo Hacer
+				 si Primo mod cont=0 Entonces
+					Div = div +1.
+					Fin si
+					Cont = cont +1.
+				Fin mientras
+					si div=2 entonces
+						Escribir  primo
+					FinSi
+					Primo = primo + 1.
+				Fin mientras
+FinAlgoritmo
