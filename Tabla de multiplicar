@@ -1,0 +1,9 @@
+Algoritmo tabla_multiplicar
+	Definir i,k,n,resul Como Entero
+	Escribir "Dame un numero"
+	leer n
+	Para i=1 Hasta 10 Con Paso 1 Hacer
+		resul = n*i
+		Escribir resul
+	Fin Para
+FinAlgoritmo
