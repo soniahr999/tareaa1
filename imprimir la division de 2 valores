@@ -1,1 +1,15 @@
-
+Algoritmo area_circulo
+	Definir num1, num2 Como Entero
+	Definir R Como Real
+	Escribir "Ingrese el primer numero:"
+	leer num1
+	Escribir "Ingrese el segundo numero:"
+	leer num2
+	Si num1>num2 Entonces
+		R = num1/num2
+	SiNo
+		R = num2/num1
+	FinSi
+	Escribir "La division del mayor entre el menor es:", R
+FinAlgoritmo
+	
