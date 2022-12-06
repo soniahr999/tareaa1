@@ -1,0 +1,25 @@
+Algoritmo sueldo
+	Definir horas, sueldo, dif_horas, tarifa_extra, Salario_extra, Sueldo_mes, Impuesto Como Entero
+	tarifa=50
+	Escribir "Introduce las horas de trabajo"
+	leer horas
+	si horas <= 35 Entonces
+		sueldo = horas*tarifa
+Sino:
+		dif_horas = horas - 35
+		
+		tarifa_extra = (tarifa*1.5)
+		Salario_extra = tarifa_extra*dif_horas
+		sueldo = (35*tarifa)+Salario_extra
+		Sueldo_mes = sueldo*4
+		Impuesto = 0
+		si Sueldo_mes > 20000  Entonces
+			Impuesto = (Sueldo_mes* 0.20)
+			salario_total = Sueldo_mes - Impuesto
+			Escribir "Tu sueldo al mes es:",Sueldo_mes,"Valor de Impuesto: ", Impuesto, " El salario Neto es: ",Salario_total
+        SiNo
+			Escribir "Tu sueldo neto es: ",Sueldo_mes
+		FinSi
+	FinSi
+	
+FinAlgoritmo
