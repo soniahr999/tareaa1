@@ -1,8 +1,8 @@
 Algoritmo cuadrado_cubo
-	Definir nu, doble, triple Como Entero
+	Definir num, doble, triple Como Entero
 	Escribir "ingrese un numero"
-	Leer nu
-	Para i<-nu Hasta nu+5 Hacer
+	Leer num
+	Para i<-num Hasta num+5 Hacer
 		doble=i*i
 		triple=i*i*i
 		Mostrar "el numero ",i," al cuadrado es ",doble," el cubo es = ",triple
