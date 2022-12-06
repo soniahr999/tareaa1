@@ -1,0 +1,24 @@
+Algoritmo max_min_med
+     definir maximo, minimo como entero
+     definir media como real
+	Escribir "Ingrese numeros"
+	leer num
+	minimo=num
+máximo=num
+	suma=0
+	Mientras (num<>0) Hacer
+		si (num>maximo) Entonces
+máximo=num
+		FinSi
+		Si (num<minimo) Entonces
+			minimo=num
+		FinSi
+		suma = suma+num
+		contador= contador+1
+		leer num
+	FinMientras
+	media=suma/(contador)
+	Escribir "El maximo es", maximo
+	Escribir "El minimo es", minimo
+	Escribir "La media es", media
+FinAlgoritmo
