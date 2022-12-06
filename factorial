@@ -1,0 +1,16 @@
+Algoritmo factorial
+	Definir N, factorial, x Como entero
+	Escribir "Introduce un numero"
+	leer N
+	si N < 0 Entonces
+		Escribir "El numero no se puede calcular"
+	SiNo
+		x = 1
+		factorial=1
+		Mientras x <= N Hacer
+			factorial= factorial*x
+			X = X + 1
+		FinMientras
+		Escribir "El factorial del numero",N,"=", factorial
+	FinSi
+FinAlgoritmo
