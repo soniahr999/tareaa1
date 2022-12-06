@@ -1,0 +1,10 @@
+Algoritmo edad_peso
+	Definir edad Como Entero
+	Definir peso Como Real
+	Escribir "Ingrese su edad:"
+	leer edad
+	Escribir "Ingrese su peso:"
+	leer peso
+	Escribir "Su edad es:",edad," años"
+	Escribir "Su peso es:",peso," kilos"
+FinAlgoritmo
